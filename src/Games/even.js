@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 import youName from '../cli.js';
-import getRandomNumber from '../getRandomNumber.js';
+import { getRandomNumber } from '../getRandomNumber.js';
 
 const brainEven = () => {
   const name = youName();
