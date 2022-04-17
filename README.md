@@ -15,7 +15,7 @@
 Затем происталировать проект: <code> make install </code><br>
 После использовать команду: <code> make publish</code>, <code> npm link</code>
 
-## Команды для запуска игр ##
+## Команды для запуска игр. ##
 - Калькулятор. <code> brain-calc </code><br>
 - Прогрессия. <code> brain-progression </code><br>
 - Определение четного числа.<code> brain-even </code><br>
