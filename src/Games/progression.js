@@ -11,7 +11,8 @@ const isProgression = (number1, number2, number3) => {
   const result = String(answe[magic]);
   answe[magic] = '..';
   const qwestion = answe.join(' ');
-  return [qwestion, result];
+  const qwest = `Question: ${qwestion}`;
+  return [qwest, result];
 };
 const progress = () => {
   const number1 = getRandomNumb(1, 100);
